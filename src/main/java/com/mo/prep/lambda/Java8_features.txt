@@ -1,0 +1,11 @@
+1. Lamba - 	helps passing functions around, that is you pass function as a data.
+			This is nothing but a dependency injection
+
+  Functional Interfaces: An interface with single method. (default and static methods does not breaks this contract)
+			Examples: java.lang.Runnable and java.util.concurrent.Callable.
+			Are identified by @FunctionalInterface
+				
+2. Interface's Default and Static method:
+			Static methods are like abstract however abstract does require mandatory implementation in derived class
+			where as default methods does not.
+				
